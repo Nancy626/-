@@ -1,0 +1,452 @@
+body {
+	padding-top: 2.2rem;
+	position: relative;
+}
+
+.nav {
+	width: 100%;
+	height: 2.2rem;
+	background: #009C82;
+	padding: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 9;
+	top: 0;
+}
+
+.nav .logo {
+	width: 2.5rem;
+	height: 1rem;
+}
+
+.nav div {
+	display: flex;
+	align-items: center;
+}
+
+.nav div .search {
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-right: 0.75rem;
+}
+
+.nav div .navs-off {
+	width: 0.75rem;
+	height: 0.75rem;
+}
+
+.swiper {
+	height: 7.65rem;
+	background: #C1C1C1;
+	position: relative;
+}
+
+.swiper .biglogo {
+	position: absolute;
+	width: 1.7rem;
+	height: 2.15rem;
+	right: 1rem;
+	top: 0.75rem;
+}
+
+.main {
+	padding: .85rem 0.25rem 0;
+}
+
+.main .topline {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-left: 0.2rem solid #009C82;
+	padding: 0 0.3rem 0 0.5rem;
+	height: 0.8rem;
+	margin-bottom: .85rem;
+}
+
+.main .topline .name {
+	text-align: left;
+	font-size: .8rem;
+	color: #009C82;
+	line-height: .8rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+
+.main .topline .more {
+	text-align: left;
+	font-size: .6rem;
+	color: #626262;
+	line-height: .8rem;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+}
+
+.main.main1 .list .item {
+	height: 14rem;
+	padding-top: 10.25rem;
+	margin-bottom: 0.75rem;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.main.main1 .list .item>div {
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	padding: 1rem .5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main.main1 .list .item div .left {
+	flex: 1;
+}
+
+.main.main1 .list .item div .title {
+	width: 100%;
+	height: 0.8rem;
+	margin-bottom: 0.4rem;
+	text-align: left;
+	font-size: .65rem;
+	color: #FFF;
+	line-height: .8rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+
+.main.main1 .list .item div .content {
+	width: 100%;
+	height: 0.8rem;
+	margin-bottom: 0.4rem;
+	text-align: left;
+	font-size: .6rem;
+	color: #999;
+	line-height: .7rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+
+.main.main1 .list .item div .more {
+	height: 0.8rem;
+	text-align: left;
+	font-size: .65rem;
+	color: #FFF;
+	line-height: .8rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+
+.main.main2 .list .item {
+	height: 14rem;
+	border: 1px solid #CCC;
+	margin-bottom: 0.75rem;
+}
+
+.main.main2 .list .item .thumb {
+	width: 100%;
+	height: 11rem;
+	margin-bottom: 1.25rem;
+}
+
+.main.main2 .list .item .name {
+	width: 100%;
+	height: 1rem;
+	padding: 0 .8rem;
+	text-align: center;
+	font-size: .85rem;
+	color: #333;
+	line-height: 1rem;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.part {
+	position: relative;
+	margin-bottom: 4rem;
+	padding: 0 .25rem;
+}
+
+.part .maintitle {
+	text-align: left;
+	font-size: .8rem;
+	color: #009C82;
+	line-height: 1rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+
+.part .maintitle span {
+	font-size: 1rem;
+}
+
+.part .line {
+	width: .4rem;
+	height: 1px;
+	background: #009C82;
+	opacity: .8;
+	margin: .3rem 0;
+}
+
+.part .maintitlecn {
+	text-align: left;
+	font-size: .4rem;
+	color: #009C82;
+	line-height: .6rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin-bottom: 4.5rem;
+}
+
+.part.part3 .inbody {
+	position: relative;
+	z-index: 3;
+	background: #FFF;
+	padding: .75rem .6rem .75rem .75rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.part.part3 .inbody .left {
+	width: 4.5rem;
+	margin-right: 0.6rem;
+}
+
+.part.part3 .inbody .right {
+	flex: 1;
+}
+
+.part.part3 .inbody .right .content {
+	text-align: left;
+	font-size: .4rem;
+	color: #666;
+	line-height: .7rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin-bottom: .25rem;
+}
+
+.part.part3 .inbody .right .more {
+	width: max-content;
+	text-align: left;
+	font-size: .5rem;
+	color: #FFF;
+	line-height: .7rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	padding: 0 .45rem;
+	background: #009C82;
+	border-radius: .4rem;
+	margin-bottom: .25rem;
+}
+
+.part .abdiv {
+	position: absolute;
+	width: 100%;
+	height: 5.7rem;
+	background: #009C82;
+	left: 0;
+	top: 6rem;
+	z-index: 1;
+}
+
+.part .abimg {
+	position: absolute;
+	width: 7.5rem;
+	height: 7.05rem;
+	left: 0.5rem;
+	top: 2.1rem;
+	z-index: 2;
+}
+
+.part.part4 .maintitlecn {
+	margin-bottom: 1.1rem;
+}
+
+.part.part4 .inbody {
+	position: relative;
+	padding-left: 6.5rem;
+	padding-right: .3rem;
+}
+
+.part.part4 .inbody .history {
+	position: absolute;
+	left: -.25rem;
+	width: 7.95rem;
+}
+
+.part.part4 .inbody .cell {
+	margin-bottom: 0.35rem;
+}
+
+.part.part4 .inbody .cell .title {
+	text-align: left;
+	font-size: .5rem;
+	line-height: .7rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin-bottom: .1rem;
+}
+
+.part.part4 .inbody .cell .content {
+	width: 100%;
+	height: .5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+	font-size: .4rem;
+	color: #666;
+	line-height: .5rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+
+.part.part4 .inbody .cell.cell1 {
+	padding-left: 0;
+}
+
+.part.part4 .inbody .cell.cell2 {
+	padding-left: 1.45rem;
+	margin-bottom: .45rem;
+}
+
+.part.part4 .inbody .cell.cell3 {
+	padding-left: 1.75rem;
+	margin-bottom: .6rem;
+}
+
+.part.part4 .inbody .cell.cell4 {
+	padding-left: 1.45rem;
+	margin-bottom: .6rem;
+}
+
+.part.part4 .inbody .cell.cell5 {
+	padding-left: 0;
+}
+
+.part.part5 {
+	padding-bottom: 1.5rem;
+	margin-bottom: 0;
+}
+
+.part.part5 .maintitlecn {
+	margin-bottom: 1rem;
+}
+
+.part.part5 .inbody .cell {
+	width: 100%;
+	height: 1.2rem;
+	padding: 0 .2rem;
+	background: #F7F7F7;
+	border-radius: .1rem;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	text-align: left;
+	font-size: .7rem;
+	color: #333;
+	line-height: 1rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin-bottom: .5rem;
+}
+
+.part.part5 .inbody .cell::-webkit-input-placeholder {
+	color: #999;
+}
+
+.part.part5 .inbody textarea.cell {
+	height: 4.3rem;
+	margin-bottom: 1.3rem;
+	resize: none;
+}
+
+.part.part5 .inbody .contact {
+	width: 7.5rem;
+	height: 1.75rem;
+	background: #009C82;
+	text-align: center;
+	font-size: .7rem;
+	color: #FFF;
+	line-height: 1.75rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin: 0 auto;
+	border-radius: .1rem;
+}
+
+.foot {
+	background: #009C82;
+	padding-top: 1.25rem;
+}
+
+.foot .top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 .5rem 1.65rem;
+}
+
+.foot .top .logo {
+	width: 3.25rem;
+	margin-right: 1.5rem;
+}
+
+.foot .top .center {
+	flex: 1;
+}
+
+.foot .top .center .title {
+	text-align: left;
+	font-size: .6rem;
+	color: #FFF;
+	line-height: .8rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.foot .top .center .cell {
+	text-align: left;
+	font-size: .5rem;
+	color: #FFF;
+	line-height: .7rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	margin-bottom: .45rem;
+}
+
+.foot .top .center .cell:last-child {
+	margin-bottom: 0;
+}
+
+.foot .top .qr {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0.2rem;
+	background: rgba(255,255,255,.8);
+	margin-left: 1.5rem;
+}
+
+.foot .top .qr img {
+	width: 100%;
+	height: 100%;
+}
+
+.foot .bottom {
+	background: rgba(0,0,0,.3);
+	padding: 0 .5rem;
+	text-align: right;
+	font-size: .5rem;
+	color: rgba(255,255,255,.5);
+	line-height: 1.75rem;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
